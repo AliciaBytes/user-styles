@@ -1,0 +1,15 @@
+/* ==UserStyle==
+@name        nicolevanderhoeven.com CSS scrollbar fix
+@namespace   @AliciaBytes
+@version     1.0.0
+@license     MIT
+@homepageURL https://github.com/AliciaBytes/UserStyles
+@supportURL  https://github.com/AliciaBytes/UserStyles/issues
+@updateURL   https://github.com/AliciaBytes/UserStyles/raw/main/styles/nicolevanderhoeven.user.css
+==/UserStyle== */
+
+@-moz-document domain("nicolevanderhoeven.com") {
+    html {
+        color-scheme: dark;
+    }
+}

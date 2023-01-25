@@ -1,0 +1,15 @@
+/* ==UserStyle==
+@name        Hide the Upgrade Banner on Raindrop.io
+@namespace   @AliciaBytes
+@version     1.0.0
+@license     MIT
+@homepageURL https://github.com/AliciaBytes/UserStyles
+@supportURL  https://github.com/AliciaBytes/UserStyles/issues
+@updateURL   https://github.com/AliciaBytes/UserStyles/raw/main/styles/raindrop.user.css
+==/UserStyle== */
+
+@-moz-document domain("app.raindrop.io") {
+    a[class^="upgrade-"] {
+        display: none;
+    }
+}
