@@ -1,0 +1,24 @@
+/* ==UserStyle==
+@name        Dark mode fix for Archives of Nethys
+@namespace   @AliciaBytes
+@version     1.0.0
+@license     MIT
+@homepageURL https://github.com/AliciaBytes/UserStyles
+@supportURL  https://github.com/AliciaBytes/UserStyles/issues
+@updateURL   https://github.com/AliciaBytes/UserStyles/raw/main/styles/aonprd.user.css
+==/UserStyle== */
+
+@-moz-document domain("2e.aonprd.com") {
+    :root {
+        color-scheme: dark;
+    }
+
+    input.prompt {
+        background: initial !important;
+    }
+
+    .input button {
+        background: initial !important;
+        color: #FFFFFF !important;
+    }
+}
