@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Dark mode fix for Archives of Nethys
 @namespace   @AliciaBytes
-@version     1.0.0
+@version     1.0.1
 @license     MIT
 @homepageURL https://github.com/AliciaBytes/UserStyles
 @supportURL  https://github.com/AliciaBytes/UserStyles/issues
@@ -19,6 +19,10 @@
 
     .input button {
         background: initial !important;
+        color: #FFFFFF !important;
+    }
+
+    .input input {
         color: #FFFFFF !important;
     }
 }
